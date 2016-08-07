@@ -10,7 +10,7 @@
 #include "monstruo.hpp"
 #include "amuleto.hpp"
 
-// Probando integracion continua con un push
+// Probando Travis
 
 
 //#include "struct_pos.hpp"
