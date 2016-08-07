@@ -1,3 +1,6 @@
+language: cpp
+
+
 matrix:
   include:
     - compiler: gcc
@@ -34,3 +37,12 @@ matrix:
           packages:
             - clang-3.7
       env: COMPILER=clang++-3.7
+
+
+before_script:
+    - mkdir build
+    - cd build
+    - cmake ..
+
+script:
+    - make
