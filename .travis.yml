@@ -54,7 +54,7 @@ install:
   - cmake --build .
 
 script:
-  - ctest -VV
+  - make
 
 notifications:
   email: false
